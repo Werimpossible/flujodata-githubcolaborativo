@@ -1,10 +1,11 @@
 +function () {
     // Elementos
-    document.getElementById("agregar");
-    document.getElementById("mostar");
-    document.getElementById("buscar");
-    document.getElementById("top-tecnico");
-    document.getElementById("top-hse");
+    var addBoton = document.getElementById("agregar");
+    var showBoton = document.getElementById("mostrar");
+    var searchBoton = document.getElementById("buscar");
+    var topTechBoton = document.getElementById("top-tecnico");
+    var topHSEBoton = document.getElementById("top-hse");
+    var result = document.getElementById("contenedor-estudiantes");
 
 
 
