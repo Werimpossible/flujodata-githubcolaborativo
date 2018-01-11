@@ -7,6 +7,7 @@ function getStudentsList() {
 
 function studentAdd() {
     // TO DO: Preguntar al usuario por el nombre, puntos técnicos y puntos de HSE de un estudiante
+    var studentName = 
     // Hint: El estudiante debe ser agregado a la lista de estudiantes
     // TO DO: Retornar el estudiante recientemente creado
    

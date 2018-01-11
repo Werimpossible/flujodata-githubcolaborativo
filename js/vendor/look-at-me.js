@@ -1,11 +1,12 @@
 +function () {
     // Elementos
-    var addBoton = document.getElementById("agregar");
-    var showBoton = document.getElementById("mostrar");
-    var searchBoton = document.getElementById("buscar");
-    var topTechBoton = document.getElementById("top-tecnico");
-    var topHSEBoton = document.getElementById("top-hse");
-    var result = document.getElementById("contenedor-estudiantes");
+    document.getElementById("agregar");
+    document.getElementById("mostar");
+    document.getElementById("buscar");
+    document.getElementById("top-tecnico");
+    document.getElementById("top-hse");
+
+
 
     // Evento Click - Agregar
     var addEvent = function (e) {
@@ -23,7 +24,7 @@
     
 
     // Manejadores de eventos
-    addBoton.addEventListener("click", addEvent);
-    showBoton.addEventListener("click", showEvent);
+    document.addEventListener("click", addEvent);
+    document.addEventListener("click",showEvent);
     
 }();
