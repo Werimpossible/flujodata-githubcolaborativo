@@ -22,6 +22,9 @@
         result.innerHTML = listShow(students);
     };
 
+    var serchEvent = function (e){
+         
+    };
     
 
     // Manejadores de eventos

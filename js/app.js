@@ -26,8 +26,8 @@ function studentAdd() {
     var studentName = 
     // Hint: El estudiante debe ser agregado a la lista de estudiantes
     // TO DO: Retornar el estudiante recientemente creado
-   
 }
+
 
 function show(student) {
     // TO DO: Completar el template para que muestre las propiedades correctas del estudiante
@@ -36,9 +36,9 @@ function show(student) {
     result += "<div class='col m12'>";
     result += "<div class='card blue-grey darken-1'>";
     result += "<div class='card-content white-text'>";
-    result += "<p><strong>Nombre:</strong> " + estudiante.nombre + "</p>";
-    result += "<p><strong>Puntos Técnicos:</strong> " + estudiante.puntajeTecnico + "</p>";
-    result += "<p><strong>Puntos HSE:</strong> " + estudiante.puntajeHse + "</p>";
+    result += "<p><strong>Nombre:</strong> " + student.name + "</p>";
+    result += "<p><strong>Puntos Técnicos:</strong> " + student["tech points"] + "</p>";
+    result += "<p><strong>Puntos HSE:</strong> " + student["hse points"] + "</p>";
     result += "</div>";
     result += "</div>";
     result += "</div>";
@@ -47,6 +47,10 @@ function show(student) {
 }
 
 function listShow(students) {
+
+    for(var i = 0; i<students.length; i++){
+        return result;
+    }
     // TO DO: Iterar la lista del estudiantes para devolverlos en el formato que usa la función mostrar(estudiante)
   // Retornar el template de todos los estudiantes
 
