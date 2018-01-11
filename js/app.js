@@ -6,6 +6,22 @@ function getStudentsList() {
 }
 
 function studentAdd() {
+
+    var studentName = prompt("Enter student name");
+    var techPoints = parseInt(prompt("Enter tech points"));
+    var hsePoints = parseInt(prompt("Enter HSE points"));
+
+    var student = {
+        "name": studentName,
+        "tech points": techPoints,
+        "hse points": hsePoints,
+    }
+
+    students.push(student);
+
+    return student;
+  
+
     // TO DO: Preguntar al usuario por el nombre, puntos técnicos y puntos de HSE de un estudiante
     var studentName = 
     // Hint: El estudiante debe ser agregado a la lista de estudiantes
